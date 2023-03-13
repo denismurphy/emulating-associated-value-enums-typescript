@@ -1,6 +1,6 @@
 # Emulating Associated Value Enums in TypeScript
 
-This project is an example of how to emulate Swift Associated Value Enums in TypeScript.
+This project is an example of how to emulate Swift Associated Value Enums in TypeScript/Javascript.
 
 Swift allows you to define Associated Value Enums that can contain other types within them. TypeScript does not support this natively, but it can be emulated using Interfaces and Type Unions.
 
