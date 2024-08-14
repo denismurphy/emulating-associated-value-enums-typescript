@@ -1,23 +1,33 @@
-# Emulating Associated Value Enums in TypeScript
+# 🏷️ Emulating Associated Value Enums in TypeScript
 
-This project is an example of how to emulate Swift Associated Value Enums in TypeScript.
+This project demonstrates how to emulate Swift's Associated Value Enums in TypeScript.
 
-Swift allows you to define Associated Value Enums that can contain other types within them. TypeScript does not support this natively, but it can be emulated using Interfaces and Type Unions.
+🍏 Swift allows defining Associated Value Enums that can contain other types within them. While TypeScript doesn't support this natively, it can be emulated using Interfaces and Type Unions.
 
-## Code Example
+## 💻 Code Example
 
-THe code example creates a Barcode object that contains two methods: upc and qrCode. Both of these methods create a new barcode object with the specified values. It also includes two methods, isUPC and isQRCode, to check if a given barcode is a UPC or QRCode.
+The code example creates a `Barcode` object with two methods:
+
+- 📊 `upc`: Creates a new barcode object with UPC values
+- 📱 `qrCode`: Creates a new barcode object with QR code values
+
+It also includes two utility methods:
+
+- ✅ `isUPC`: Checks if a given barcode is a UPC
+- ✅ `isQRCode`: Checks if a given barcode is a QR code
 
 The `switch` method returns a new `BarcodeSwitchBuilder` object that allows you to build a switch statement based on the barcode type.
 
-## Running the Tests
+## 🧪 Running the Tests
 
-This project includes a Mocha test to ensure that the BarcodeSwitchBuilder works as expected.
+This project includes a Mocha test to ensure that the `BarcodeSwitchBuilder` works as expected.
 
-To run the tests, simply run the following command in your terminal:
+To run the tests, execute the following command in your terminal:
 
-    npm test
+```
+npm test
+```
 
-## Conclusion
+## 🎓 Conclusion
 
-Emulating Associated Value Enums in TypeScript can be done using Interfaces and Type Unions. The example provided in this project shows one way to do this.
+Emulating Associated Value Enums in TypeScript can be achieved using Interfaces and Type Unions. The example provided in this project demonstrates one approach to accomplish this.
